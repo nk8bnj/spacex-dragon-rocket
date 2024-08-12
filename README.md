@@ -11,7 +11,7 @@
 - HTML / CSS / SCSS
 - TypeScript
 - React
-- React-router
+- React Router
 - Redux Toolkit
 - Axios
 - Swiper

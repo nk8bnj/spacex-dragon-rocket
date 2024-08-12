@@ -9,7 +9,7 @@ const Header = () => {
 			<div className={styles.content}>
 				<h1 className={styles.title}>Dive deep in to the future</h1>
 				<div className={styles.icons}>
-					<img src='../../../public/images/earth.png' alt='earth' />
+					<img src='images/earth.png' alt='earth' />
 					<div className={styles.lineIcon}></div>
 				</div>
 			</div>

@@ -1,0 +1,64 @@
+@import '@/index.scss';
+
+.rocketInfo {
+	margin-top: 32px;
+
+	.title {
+		font-size: 64px;
+		font-weight: 700;
+		line-height: 75.84px;
+		text-transform: uppercase;
+	}
+
+	.content {
+		display: flex;
+		gap: 24px;
+
+		max-height: 530px;
+
+		margin-top: 32px;
+		padding: 24px;
+
+		border: 1px solid $border-color;
+		border-radius: 40px;
+
+		.img {
+			flex: 2;
+			object-fit: cover;
+			overflow: auto;
+
+			border-radius: 20px;
+			border: 1px solid $border-color;
+		}
+
+		.detailsWrapper {
+			flex: 1;
+
+			text-transform: uppercase;
+
+			.name {
+				font-size: 24px;
+				font-weight: 700;
+			}
+
+			.details {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+
+				margin-top: 32px;
+
+				font-size: 14px;
+
+				.detail {
+					display: flex;
+					justify-content: space-between;
+
+					padding-bottom: 8px;
+
+					border-bottom: 1px solid $border-color;
+				}
+			}
+		}
+	}
+}

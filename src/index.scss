@@ -1,0 +1,35 @@
+@font-face {
+	font-family: Rubik;
+	src: url('/fonts/Rubik-VariableFont.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+ol,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+$background-color: #000000;
+$main-light-color: #ffffff;
+$main-dark-color: #000000;
+$border-color: #ffffff33;
+
+$main-width: 1321px;
+
+:root {
+	font-family: Rubik, system-ui, sans-serif;
+
+	color: $main-light-color;
+	background-color: $background-color;
+}

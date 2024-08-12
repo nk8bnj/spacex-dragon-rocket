@@ -1,0 +1,46 @@
+@import '@/index.scss';
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 32px;
+
+	text-transform: uppercase;
+
+	.items {
+		display: flex;
+		gap: 48px;
+
+		.item {
+			position: relative;
+
+			cursor: pointer;
+
+			transition: color 0.3s;
+
+			&:hover {
+				color: $border-color;
+			}
+		}
+	}
+
+	.button {
+		padding: 8px 12px;
+
+		border: 1px solid $main-light-color;
+		border-radius: 21px;
+
+		cursor: pointer;
+
+		transition:
+			background-color 0.3s,
+			color 0.3s;
+
+		&:hover {
+			background-color: $main-light-color;
+			color: $main-dark-color;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.totalInfo {
+	display: flex;
+
+	margin-top: 100px;
+
+	.content {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		align-items: center;
+		gap: 32px;
+	}
+
+	.amount {
+		font-size: 64px;
+		font-weight: 700;
+	}
+
+	.title {
+		font-size: 32px;
+		line-height: 37.92px;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,70 @@
+@import '@/index.scss';
+
+.starshipSlide {
+	position: relative;
+	width: 100%;
+	height: 1000px;
+
+	background-position: center;
+	background-size: cover;
+
+	.slideContent {
+		width: $main-width;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+		padding-inline: 0;
+		margin-inline: auto;
+
+		.contentContainer {
+			position: absolute;
+			bottom: 126px;
+			max-width: 453px;
+
+			.title {
+				font-size: 64px;
+				font-weight: 700;
+				line-height: 75.84px;
+				text-transform: uppercase;
+			}
+
+			.description {
+				margin-top: 24px;
+
+				font-size: 14px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+.swiperButtons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	left: 50%;
+
+	width: 100%;
+	max-width: $main-width;
+	height: 62px;
+
+	position: absolute;
+	bottom: 1px;
+	z-index: 1;
+
+	transform: translate(-50%, -50%);
+
+	.swiperButtonPrev,
+	.swiperButtonNext {
+		width: 62px;
+		height: 62px;
+
+		background-color: transparent;
+		border: none;
+
+		cursor: pointer;
+	}
+}
+

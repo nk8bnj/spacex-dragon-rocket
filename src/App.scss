@@ -1,0 +1,21 @@
+@import './index.scss';
+
+.container {
+	max-width: $main-width;
+	margin: 0 auto;
+
+	padding-top: 48px;
+
+	width: $main-width;
+	padding-inline: 0;
+	margin-inline: auto;
+}
+
+.swiper {
+  --swiper-pagination-color: #fff;
+  --swiper-pagination-bullet-inactive-color: #999999;
+  --swiper-pagination-bullet-inactive-opacity: 0.4;
+  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+

@@ -1,0 +1,35 @@
+@import '@/index.scss';
+
+.aboutUs {
+	margin-block: 100px;
+
+	.title {
+		font-size: 64px;
+		font-weight: 700;
+		line-height: 75.84px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.video {
+		position: relative;
+	}
+
+	.img {
+		width: 100%;
+		margin-top: 32px;
+
+		object-fit: contain;
+
+		border: 1px solid $border-color;
+		border-radius: 40px;
+	}
+
+	.button {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+
+		transform: translate(-50%, -25%);
+	}
+}

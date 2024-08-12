@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Starship capabilities",
+		"description": "As the most powerful launch system ever developed, Starship will be able to carry up to 100 people on long-duration, interplanetary flights. Starship will also help enable satellite delivery, the development of a Moon base, and point-to-point transport here on Earth.",
+		"image": "images/starship.jpg"
+	},
+	{
+		"title": "Starship development",
+		"description": "Starship represents a fully reusable transportation system designed to service Earth orbit needs as well as missions to the Moon and Mars. This two-stage vehicle—composed of the Super Heavy rocket (booster) and Starship (spacecraft)—is powered by sub-cooled methane and oxygen.",
+		"image": "images/starship.jpg"
+	},
+	{
+		"title": "Starship testing",
+		"description": "SpaceX is currently building and testing prototypes of Starship at their facility in Boca Chica, Texas. The company has already conducted several test flights of Starship prototypes, including high-altitude flights and controlled landings.",
+		"image": "images/starship.jpg"
+	},
+	{
+		"title": "Starship missions",
+		"description": "Starship is designed to be a versatile vehicle capable of servicing a variety of missions, including crewed flights to the Moon and Mars, satellite delivery, and point-to-point transport on Earth. The vehicle's fully reusable design will help reduce the cost of access to space and enable a wide range of new opportunities.",
+		"image": "images/starship.jpg"
+	}
+]

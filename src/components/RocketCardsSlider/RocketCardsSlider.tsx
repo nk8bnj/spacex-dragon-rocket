@@ -43,7 +43,7 @@ const RocketCardsSlider: React.FC<Props> = ({ rockets }) => {
 						className={styles.button}
 						onClick={() => swiperRef.current?.slidePrev()}
 					>
-						<img src='../../../public/images/leftArrow.png' alt='Left arrow' />
+						<img src='images/leftArrow.png' alt='Left arrow' />
 					</button>
 
 					<button
@@ -51,8 +51,8 @@ const RocketCardsSlider: React.FC<Props> = ({ rockets }) => {
 						onClick={() => swiperRef.current?.slideNext()}
 					>
 						<img
-							src='../../../public/images/rightArrow.png'
-							alt='arrow-right'
+							src='images/rightArrow.png'
+							alt='Right arrow'
 						/>
 					</button>
 				</div>

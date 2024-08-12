@@ -50,14 +50,14 @@ const StarshipSlider: React.FC<Props> = ({ slides }) => {
 					className={styles.swiperButtonPrev}
 					onClick={() => swiperRef.current?.slidePrev()}
 				>
-					<img src='../../../public/images/leftArrow.png' alt='Left arrow' />
+					<img src='images/leftArrow.png' alt='Left arrow' />
 				</button>
 				<div className='swiper-pagination'></div>
 				<button
 					className={styles.swiperButtonNext}
 					onClick={() => swiperRef.current?.slideNext()}
 				>
-					<img src='../../../public/images/rightArrow.png' alt='Right arrow' />
+					<img src='images/rightArrow.png' alt='Right arrow' />
 				</button>
 			</div>
 		</Swiper>

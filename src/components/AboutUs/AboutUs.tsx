@@ -7,11 +7,11 @@ const AboutUs = () => {
 			<div className={styles.video}>
 				<img
 					className={styles.img}
-					src='../../../public/images/videoPreview.jpg'
+					src='images/videoPreview.jpg'
 					alt='Video preview image'
 				/>
 				<div className={styles.button}>
-					<img src='../../../public/images/play.png' alt='Play Icon' />
+					<img src='images/play.png' alt='Play Icon' />
 				</div>
 			</div>
 		</section>

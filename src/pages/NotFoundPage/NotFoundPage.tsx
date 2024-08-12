@@ -9,7 +9,7 @@ export default function NotFoundPage() {
 				<p className={styles.title}>Sorry, page not found</p>
 				<Link to='/'>
 					<p className={styles.link}> Go to main page</p>
-					<img src='../../../public/images/leftArrow.png' alt='left arrow' />
+					<img src='images/leftArrow.png' alt='Left arrow' />
 				</Link>
 			</div>
 		</main>

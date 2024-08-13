@@ -2,7 +2,7 @@ import { UnitsOfMeasurement } from '@/types/enums'
 import { IRocket } from '@/types/Rocket.interface'
 
 const preparedRocketInfo = (rocket: IRocket) => {
-	const props = [
+	const info = [
 		{
 			name: 'Height',
 			value: [
@@ -93,7 +93,7 @@ const preparedRocketInfo = (rocket: IRocket) => {
 		}
 	]
 
-	return props
+	return info
 }
 
 export default preparedRocketInfo
